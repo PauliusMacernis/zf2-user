@@ -1,7 +1,13 @@
 {
-  "name": "learnzf/debug",
-  "description": "Debug module from the \"Learn ZF2\" book",
+  "name": "paulius-m/zf2-user",
+  "description": "User module for zf2 applications.",
   "authors": [
+    {
+      "name": "Paulius Macernis",
+      "email": "sugalvojau@gmail.com",
+      "homepage": "",
+      "role": "Contributor"
+    },
     {
       "name": "Slavey Karadzhov",
       "email": "slaff@linux-bg.org",
