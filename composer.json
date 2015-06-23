@@ -5,7 +5,7 @@
     {
       "name": "Paulius Macernis",
       "email": "sugalvojau@gmail.com",
-      "homepage": "",
+      "homepage": "https://github.com/sugalvojau",
       "role": "Contributor"
     },
     {
@@ -33,9 +33,9 @@
     ]
   },
   "scripts": {
-    "post-package-install:": [
-      "cp config/database.local.php.dist ../../config/autoload/database.local.php",
-      "cp config/log.local.php.dist ../../config/autoload/log.local.php"
+    "post-package-install-cmd": [
+      "cp config/database.local.php.dist ../../../config/autoload/database.local.php",
+      "cp config/log.local.php.dist ../../../config/autoload/log.local.php"
     ]
   }
 }
