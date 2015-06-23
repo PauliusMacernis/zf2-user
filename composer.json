@@ -34,8 +34,8 @@
   },
   "scripts": {
     "post-package-install:": [
-      "cp config/database.local.php.dist ../../../config/autoload/database.local.php",
-      "cp config/log.local.php.dist ../../../config/autoload/log.local.php"
+      "cp config/database.local.php.dist ../../config/autoload/database.local.php",
+      "cp config/log.local.php.dist ../../config/autoload/log.local.php"
     ]
   }
 }
